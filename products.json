@@ -1,0 +1,326 @@
+[
+  {
+    "title": "Redmi 80cm 32inches HD Ready Smart LED Fire TV L32R8 FVIN Black",
+    "description": "This is Redmi firetv with Dolby Audio dts-HD dts virtual and Vivid Picture Engine",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690204808/easy-buy/Redmi_80_cm_32_inches_HD_Ready_Smart_LED_Fire_TV_L32R8-FVIN_Black_nyhw9s.jpg",
+    "category": "electronics",
+    "color": ["Black", "Blue", "White"],
+    "price": 2000,
+    "inStock": true,
+    "rating": {
+      "rate": 4.5,
+      "count": 7600
+    },
+    "discount": 10,
+    "recommended": true
+  },
+  {
+    "title": "Realme Narzo 50i Prime Dark Blue",
+    "description": "This is 4GB RAM and 32 GB Storage facility.Includes octa-core processor and a 5000 mAh battery.",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690204807/easy-buy/Realme_narzo_50i_prime_dark_blue_4GB_RAM_32_gb_storage_Octa-core_processor_5000_mAh_Battery_xjz63e.jpg",
+    "category": "Electronics",
+    "color": ["Red", "Blue", "Yellow"],
+    "price": 450,
+    "inStock": true,
+    "rating": {
+      "rate": 4,
+      "count": 4500
+    },
+    "discount": 5,
+    "recommended": true
+  },
+  {
+    "title": "Noise Buds WirelessEarbuds",
+    "description": "Noise Buds VS104 Truly Wireless Earbuds with 45H of Playtime Quad Mic with EC instacharge 10 min 200 min 13mm Driver Low LatencyBT v5.2 Black",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690204806/easy-buy/Noise_Buds_VS104_Truly_Wireless_Earbuds_with_45H_of_Playtime_Quad_Mic_with_ENC_Instacharge_10_min_200_min_13mm_Driver_Low_Latency_BT_v5.2_Charcoal_Black_dwn1wp.jpg",
+    "category": "Electronics",
+    "color": ["Black", "Blue", "White"],
+    "price": 49.99,
+    "inStock": false,
+    "rating": {
+      "rate": 3.5,
+      "count": 854
+    },
+    "discount": 10,
+    "recommended": false
+  },
+  {
+    "title": "HP Chromebook",
+    "description": "15a Intel Celeron N4500 15.6inch 39.6cm HD Anti Glare Display 4GB RAM 128 GB eMMC Dual Speaker Intel UHD Graphics Chrome 64 1070gm Silver",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690204801/easy-buy/HP_Chromebook_15a_Intel_Celeron_N4500_15.6inch_39.6cm_HD_Anti-Glare_Display_4GB_RAM_128_GB_eMMC_Dual_Speaker_Intel_UHD_Graphics_Chrome_64_1070gm_Mineral_Silver_15a_na0008TU_ahl4cu.jpg",
+    "category": "Electronics",
+    "color": ["Silver", "White", "Black"],
+    "price": 1200,
+    "inStock": true,
+    "rating": {
+      "rate": 4.5,
+      "count": 12400
+    },
+    "discount": 10,
+    "recommended": true
+  },
+  {
+    "title": "boAt Charger",
+    "description": "boAt WCDV 20W Super FastType C Charger with free C to Type Cable Compatible with all iPhones Android Devices Tablets",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690204799/easy-buy/boAt_WCDV_20W_Super_Fast_Type_C_Charger_with_Free_Type_C_to_Type_Cable_Compatible_with_All_iPhones_Android_Devices_ablets_White_yu2zzd.jpg",
+    "category": "Electronics",
+    "color": ["White", "Black", "Blue"],
+    "price": 700,
+    "inStock": true,
+    "rating": {
+      "rate": 2.5,
+      "count": 642
+    },
+    "discount": 2,
+    "recommended": false
+  },
+  {
+    "title": "Supremo Bangles",
+    "description": "Supremo Bridal fashion Rajasthani Radha Krishna Plastic metal 2 Bangles Kada for Women",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690204794/easy-buy/Suprimo_Bridal_fashion_rajasthani_Radha_Krishan_Plastic_metal_2_Bangles_Kada_for_Women_s_qzjsbx.jpg",
+    "category": "Jewelery",
+    "size": ["S", "M", "L"],
+    "price": 500,
+    "inStock": true,
+    "rating": {
+      "rate": 4.5,
+      "count": 100
+    },
+    "discount": 10,
+    "recommended": true
+  },
+  {
+    "title": "Zaveri Pearls Necklace",
+    "description": "Zaveri Pearls Green Beads Floral Kundan Necklace Set for Women",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690204793/easy-buy/ZAVERI_PEARLS_Green_Beads_Floral_Kundan_Necklace_Set_For_Women-ZPFK9098_nujbmx.jpg",
+    "category": "Jewelery",
+    "color": ["Red", "Blue", "Green"],
+    "price": 300,
+    "inStock": true,
+    "rating": {
+      "rate": 4.5,
+      "count": 100
+    },
+    "discount": 10,
+    "recommended": true
+  },
+  {
+    "title": "Sukkhi Glamorous Necklace",
+    "description": "Sukkhi Glamorous Gold Plated Choker Necklace Set Combo For Women",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690204789/easy-buy/Sukkhi_Glamorous_Gold_Plated_Choker_Necklace_Set_Combo_For_Women_kpakcq.jpg",
+    "category": "Jewelery",
+    "price": 49.99,
+    "inStock": true,
+    "rating": {
+      "rate": 4.0,
+      "count": 700
+    },
+    "discount": 10,
+    "recommended": true
+  },
+  {
+    "title": "I Jewels Necklace",
+    "description": "I Jewels 18k Gold Plated Traditional Stone Studded Necklace Jewelery",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690204788/easy-buy/I_Jewels_18K_Gold_Plated_Traditional_Stone_Studded_Necklace_Jewellery_Set_For_Women_And_Girls_IJ353_br15ql.jpg",
+    "category": "Jewelery",
+    "price": 750,
+    "inStock": true,
+    "rating": {
+      "rate": 4.8,
+      "count": 700
+    },
+    "discount": 10,
+    "recommended": true
+  },
+  {
+    "title": "Electroprime Earrings",
+    "description": "Electroprime Jewelery Earrings- Minimalistic Design Hinged Rings - Stainless Steel",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690204786/easy-buy/ELECTROPRIME_Jewelery_Earrings_-_Minimalist_Design_Hinged_Rings_-_Stainless_Steel_-_for_S1E1_dc0u1j.jpg",
+    "category": "Jewelery",
+    "size": ["Small", "Medium", "Large"],
+    "price": 900,
+    "inStock": false,
+    "rating": {
+      "rate": 2.0,
+      "count": 560
+    },
+    "discount": 20,
+    "recommended": false
+  },
+  {
+    "title": "Denim Jacket",
+    "description": "This is Women's Full Sleeve Blue Solid Denim Jacket",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690201869/easy-buy/Full_Sleeve_Blue_Solid_Women_s_Denim_Jacket_lnm53k.jpg",
+    "category": "Women's Clothing",
+    "size": ["Small", "Medium", "Large"],
+    "color": ["White", "Blue", "Green"],
+    "price": 350,
+    "inStock": true,
+    "rating": {
+      "rate": 4.5,
+      "count": 4500
+    },
+    "discount": 10,
+    "recommended": true
+  },
+  {
+    "title": "Dark Sage Shirt",
+    "description": "Dark Sage Shirt Collar Full Sleeve Solid Knee Long Polyester",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690201865/easy-buy/Women_s_DarkSage_Shirt_Collar_Full_Sleeve_Solid_Knee-_Long_Polyester_oxht8j.jpg",
+    "category": "Women's Clothing",
+    "size": ["Small", "Medium", "Large"],
+    "color": ["Red", "Blue", "Green"],
+    "price": 150,
+    "inStock": true,
+    "rating": {
+      "rate": 3.2,
+      "count": 800
+    },
+    "discount": 10,
+    "recommended": true
+  },
+  {
+    "title": "Ethnic Jacket",
+    "description": "Ethnic Jacket for Ware on Short Kurti",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690201864/easy-buy/Women_s_Ethnic_Jacket_for_Ware_on_Short_Kurti_l2bddg.jpg",
+    "category": "Women's Clothing",
+    "size": ["Small", "Medium", "Large"],
+    "color": ["Red", "Blue", "Green"],
+    "price": 550,
+    "inStock": true,
+    "rating": {
+      "rate": 3.5,
+      "count": 1200
+    },
+    "discount": 10,
+    "recommended": true
+  },
+  {
+    "title": "Fleese Neck Sweatshirt",
+    "description": "Women's Fleese Collared Neck Long Full Sleeves Sweatshirt",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690201861/easy-buy/Women_s_Fleese_Collared_Neck_Sweatshirt_tmfymt.jpg",
+    "category": "Women's Clothing",
+    "size": ["Small", "Medium", "Large"],
+    "color": ["Red", "Blue", "Black"],
+    "price": 600,
+    "inStock": true,
+    "rating": {
+      "rate": 4.8,
+      "count": 1400
+    },
+    "discount": 10,
+    "recommended": true
+  },
+  {
+    "title": "Fleece Sweatshirt",
+    "description": "Fleece Sweatshirt and Lower Arm Best For Winter",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690201861/easy-buy/Female_Fleece_Sweatshirt_ad_Lower_Warm_Best_for_Winter_i9azts.jpg",
+    "category": "Women's Clothing",
+    "size": ["Small", "Medium", "Large"],
+    "color": ["Red", "Blue", "Black"],
+    "price": 750,
+    "inStock": true,
+    "rating": {
+      "rate": 3.8,
+      "count": 643
+    },
+    "discount": 10,
+    "recommended": true
+  },
+  {
+    "title": "Denim Blue Jacket",
+    "description": "Men's Denim Jacket Full Sleeves Long",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690200423/easy-buy/men_s-jacket_rpfzph.jpg",
+    "category": "Men's Clothing",
+    "size": ["Small", "Medium", "Large"],
+    "color": ["Red", "Blue", "Black"],
+    "price": 75,
+    "inStock": true,
+    "rating": {
+      "rate": 4.7,
+      "count": 2400
+    },
+    "discount": 10,
+    "recommended": true
+  },
+  {
+    "title": "Men's Plain Pant",
+    "description": "Blue Plain Long Pant For Everyday Use. Easy Washable.",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690200426/easy-buy/men_s-pant_bya1zu.jpg",
+    "category": "Men's Clothing",
+    "size": ["Small", "Medium", "Large"],
+    "color": ["Red", "Blue", "Green"],
+    "price": 150,
+    "inStock": true,
+    "rating": {
+      "rate": 4.5,
+      "count": 100
+    },
+    "discount": 10,
+    "recommended": true
+  },
+  {
+    "title": "Men's Striped T-Shirt",
+    "description": "This is Men's Striped T-Shirt available in 3 more colors.",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690200435/easy-buy/men_s-tshirt_sdf8cq.avif",
+    "category": "Men's Clothing",
+    "size": ["Small", "Medium", "Large"],
+    "color": ["Red", "Blue", "Green"],
+    "price": 120,
+    "inStock": true,
+    "rating": {
+      "rate": 4.5,
+      "count": 100
+    },
+    "discount": 10,
+    "recommended": true
+  },
+  {
+    "title": "Long Full Sleeves Cotton Shirt",
+    "description": "This is Men's Long Full Sleeve Cotton White.",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690200598/easy-buy/men_s-fullsleeveswhite_uwiksa.jpg",
+    "category": "Men's Clothing",
+    "size": ["Small", "Medium", "Large"],
+    "color": ["Black", "Blue", "White"],
+    "price": 150,
+    "inStock": true,
+    "rating": {
+      "rate": 1.7,
+      "count": 100
+    },
+    "discount": 10,
+    "recommended": true
+  },
+  {
+    "title": "Cruse Jacket",
+    "description": "This is Men's Full Sleeve Brown Jacket.",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690200601/easy-buy/men_s-jacketbrown_mco3pk.jpg",
+    "category": "Men's Clothing",
+    "size": ["Small", "Medium", "Large"],
+    "color": ["Brown", "Blue", "White"],
+    "price": 550,
+    "inStock": true,
+    "rating": {
+      "rate": 4.7,
+      "count": 4500
+    },
+    "discount": 10,
+    "recommended": true
+  },
+  {
+    "title": "Full Sleeves Shirt",
+    "description": "This is a Full Sleeves White Cotton Shirt.",
+    "image": "https://res.cloudinary.com/djxonmiuo/image/upload/v1690200429/easy-buy/men_s-shirt_hjrqfl.jpg",
+    "category": "Men's Clothing",
+    "size": ["Small", "Medium", "Large"],
+    "color": ["White", "Blue", "Black"],
+    "price": 350,
+    "inStock": true,
+    "rating": {
+      "rate": 4.7,
+      "count": 4500
+    },
+    "discount": 10,
+    "recommended": true
+  }
+]
