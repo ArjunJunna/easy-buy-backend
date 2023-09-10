@@ -45,7 +45,7 @@ const paymentVerification = async (req, res) => {
         razorpay_signature,
       });
 
-      res.redirect(`http://127.0.0.1:5173/paymentsuccess?reference=${razorpay_payment_id}`);
+      res.redirect(`https://easy-buy-ecommerce.onrender.com/paymentsuccess?reference=${razorpay_payment_id}`);
       
     } else {
       res.status(400).json({
