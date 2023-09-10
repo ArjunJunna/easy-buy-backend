@@ -11,7 +11,7 @@ app.use(
   cors({
     origin: [
       'https://easy-buy-dusky.vercel.app',
-      'http://127.0.0.1:5173',
+      'https://easy-buy-ecommerce.onrender.com',
       'https://easy-buy-arjunjunna.vercel.app',
       'https://easy-buy-git-dev-arjunjunna.vercel.app',
     ],
