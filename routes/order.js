@@ -15,10 +15,9 @@ const {
   getIncome,
 } = require('../controllers/order');
 
-router
-  .route('/')
-  .post(verifyToken, createOrder)
-  .get(verifyTokenAndAdmin, getAllOrder);
+router.route('/').post(verifyToken, createOrder);
+
+router.route('/:userId').get(verifyToken, getAllOrder);
 
 router
   .route('/:id')

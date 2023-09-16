@@ -18,16 +18,17 @@ const {
 router
   .route('/')
   .post(verifyToken, createCart)
-  .get(verifyTokenAndAuthorization, getProductsFromCart);
+  //.get(verifyTokenAndAuthorization, getProductsFromCart);
     //.get(verifyTokenAndAdmin, getAllCart)
 router
   .route('/:id')
   .put(verifyTokenAndAuthorization, updateCart)
+  //.delete(verifyToken,deleteCart)
   
 router
   .route('/:userId')
-  .get(verifyTokenAndAuthorization, getCart)
+  .get(verifyToken, getProductsFromCart)
   .post(verifyToken, addToCart)
-  .delete(verifyToken, deleteProductFromCart)
+  .delete(verifyToken, deleteProductFromCart);
 
 module.exports = router;

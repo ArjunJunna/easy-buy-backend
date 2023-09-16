@@ -7,7 +7,7 @@ const {addToWishlist,deleteFromWishlist,getAllItemsFromWishlist}=require('../con
 
 router
   .route('/:userId')
-  .get(verifyTokenAndAuthorization, getAllItemsFromWishlist)
+  .get(verifyToken, getAllItemsFromWishlist)
   .post(verifyToken, addToWishlist)
   .delete(verifyToken, deleteFromWishlist);
 

@@ -8,29 +8,30 @@ const OrderSchema = new mongoose.Schema(
     },
     products: [
       {
-        productId: {
-          type: String,
-        },
-        quantity: {
-          type: Number,
-          default: 1,
-        },
+        type: Object,
+        required: true,
       },
     ],
+  
     amount: {
       type: Number,
       required: true,
     },
-    address: {
+    deliveryAddress: {
       type: Object,
       required: true,
     },
-    status: {
+    orderId: {
       type: String,
-      default: 'Pending',
+      required: true,
+    },
+    paymentId: {
+      type: String,
+      required: true,
     },
   },
   { timestamps: true }
+  
 );
 
 module.exports = mongoose.model('Order', OrderSchema);

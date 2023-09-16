@@ -3,15 +3,15 @@ const ProductModel = require('../models/product');
 
 const getProductsFromCart=async(req,res)=>{
   try {
-    const userId = req.body.userId;
+    const {userId} = req.params;
+    console.log('userId',userId);
     const cart = await CartModel.findOne({userId});
     if (!cart) {
-      throw new Error('Cart not found');
+      return res.status(200).json([]);
     }
-
- 
+    console.log('cart',cart);
     const productIds = cart.products.map(product => product.productId);
-    console.log('all products',productIds);
+    console.log('all products from cart',productIds);
  
     const products = await ProductModel.find({ _id: { $in: productIds } });
 
@@ -97,17 +97,19 @@ const updateCart = async (req, res) => {
     res.status(500).json(error);
   }
 };
-
+/*
 const deleteCart = async (req, res) => {
   try {
-    const deleteCart = await CartModel.findByIdAndDelete(req.params.id);
-    res
-      .status(200)
-      .json({ msg: 'Cart has been deleted', deletedCart: deleteCart });
+    const deletedCart = await CartModel.deleteOne({userID:req.params.id});
+    if (!deletedCart) {
+      return res.status(404).json({ msg: 'Cart not found' });
+    }
+    res.status(200).json({ msg: 'Cart has been deleted', deletedCart });
   } catch (error) {
     res.status(500).json(error);
   }
 };
+*/
 
 const getCart = async (req, res) => {
   try {
@@ -131,7 +133,6 @@ module.exports = {
   addToCart,
   createCart,
   updateCart,
-  deleteCart,
   getCart,
   getAllCart,
   deleteProductFromCart,

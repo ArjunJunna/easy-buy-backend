@@ -38,14 +38,17 @@ const paymentVerification = async (req, res) => {
   
 
     if (isAuthentic) {
-      
       await PaymentModel.create({
         razorpay_order_id,
         razorpay_payment_id,
         razorpay_signature,
       });
-
-      res.redirect(`https://easy-buy-ecommerce.onrender.com/paymentsuccess?reference=${razorpay_payment_id}`);
+     
+      res.status(201).json({
+        success: true,
+        razorpay_order_id,
+        razorpay_payment_id,
+      });
       
     } else {
       res.status(400).json({

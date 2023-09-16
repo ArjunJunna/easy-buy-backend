@@ -9,6 +9,15 @@ const createOrder = async (req, res) => {
   }
 };
 
+const getAllOrder = async (req, res) => {
+  try {
+    const orders = await OrderModel.find({ userId: req.params.userId });
+    res.status(200).json(orders);
+  } catch (error) {
+    res.status(500).json(error);
+  }
+};
+
 const updateOrder = async (req, res) => {
   try {
     const updatedOrder = await OrderModel.findByIdAndUpdate(
@@ -42,14 +51,7 @@ const getOrder = async (req, res) => {
   }
 };
 
-const getAllOrder = async (req, res) => {
-  try {
-    const orders = await OrderModel.find();
-    res.status(200).json(orders);
-  } catch (error) {
-    res.status(500).json(error);
-  }
-};
+
 
 const getIncome = async (req, res) => {
   const date = new Date();

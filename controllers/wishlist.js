@@ -37,10 +37,21 @@ const deleteFromWishlist=async(req,res)=>{
 
 const getAllItemsFromWishlist=async(req,res)=>{
     try {
-        const wishlist=await WishtlistModel.findOne({ userId: req.params.userId });
-        res.status(200).json(wishlist);
+      const { userId } = req.params;
+      console.log('userId', userId);
+      const wishlist = await WishtlistModel.findOne({ userId });
+      if (!wishlist) {
+        return res.status(200).json([]);
+      }
+      console.log('wishlist', wishlist);
+      const productIds = wishlist.products.map(product => product.productId);
+      console.log('all products from wishlist', productIds);
+
+      const products = await ProductModel.find({ _id: { $in: productIds } });
+
+      res.status(200).json(products);
     } catch (error) {
-        res.status(500).json(error);
+      res.status(500).json(error);
     }
 }
 
